@@ -15,4 +15,5 @@ Lint error:
 ```
 
 Using project from: https://github.com/lucasjungdeveloper/radix-tailwind
-Commentary from tailwindcss-radix plugin maintainer: https://github.com/ecklf/tailwindcss-radix/issues/32#issuecomment-1398916482
+
+Note from tailwindcss-radix plugin maintainer: https://github.com/ecklf/tailwindcss-radix/issues/32#issuecomment-1398916482
