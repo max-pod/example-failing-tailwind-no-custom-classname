@@ -4,8 +4,13 @@
     "project": "./tsconfig.json"
   },
   "plugins": ["@typescript-eslint", "autofix"],
-  "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
+  "extends": [
+    "plugin:tailwindcss/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
   "rules": {
+    "tailwindcss/no-custom-classname": "error",
     "@typescript-eslint/consistent-type-imports": "warn",
     "sort-imports": [
       "error",
